@@ -4,6 +4,7 @@ project(acwing)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(acwing main.cpp)
+add_executable(acwing2 test.c)
 
 add_executable(winterWeek01Day03 winter/week01/day03/main.cpp)
 add_executable(winterWeek01Day04 winter/week01/day04/main.cpp)
@@ -26,6 +27,20 @@ add_executable(winterWeek04Day02 winter/week04/day02/main.cpp)
 add_executable(winterWeek04Day03 winter/week04/day03/main.cpp)
 add_executable(winterWeek04Day04 winter/week04/day04/main.cpp)
 add_executable(winterWeek04Day05 winter/week04/day05/main.cpp)
+
+add_executable(bridgeWeek01Day01 bridge/week01/day01/main.cpp)
+add_executable(bridgeWeek01Day02 bridge/week01/day02/main.cpp)
+add_executable(bridgeWeek01Day03 bridge/week01/day03/main.cpp)
+add_executable(bridgeWeek01Day04 bridge/week01/day04/main.cpp)
+add_executable(bridgeWeek01Day05 bridge/week01/day05/main.cpp)
+
+add_executable(bridgeWeek02Day01 bridge/week02/day01/main.cpp)
+add_executable(bridgeWeek02Day02 bridge/week02/day02/main.cpp)
+add_executable(bridgeWeek02Day03 bridge/week02/day03/main.cpp)
+add_executable(bridgeWeek02Day04 bridge/week02/day04/main.cpp)
+add_executable(bridgeWeek02Day05 bridge/week02/day05/main.cpp)
+
+
 
 add_executable(basicClass01quicksort basic/class01/knumber/main.cpp)
 add_executable(basicClass01knumber basic/class01/quicksort/main.cpp)
