@@ -40,6 +40,12 @@ add_executable(bridgeWeek02Day03 bridge/week02/day03/main.cpp)
 add_executable(bridgeWeek02Day04 bridge/week02/day04/main.cpp)
 add_executable(bridgeWeek02Day05 bridge/week02/day05/main.cpp)
 
+add_executable(bridgeWeek03Day01 bridge/week03/day01/main.cpp)
+add_executable(bridgeWeek03Day02 bridge/week03/day02/main.cpp)
+add_executable(bridgeWeek03Day03 bridge/week03/day03/main.cpp)
+add_executable(bridgeWeek03Day04 bridge/week03/day04/main.cpp)
+add_executable(bridgeWeek03Day05 bridge/week03/day05/main.cpp)
+
 
 
 add_executable(basicClass01quicksort basic/class01/knumber/main.cpp)
