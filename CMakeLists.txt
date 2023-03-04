@@ -6,6 +6,18 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(acwing main.cpp)
 add_executable(acwing2 test.c)
 
+add_executable(PAT1002 PAT/1002A+BforPolynomials/main.cpp)
+add_executable(PAT1003 PAT/1003Emergency/main.cpp)
+add_executable(PAT1004 PAT/1004CountingLeaves/main.cpp)
+add_executable(PAT1005 PAT/1005SpellitRight/main.cpp)
+add_executable(PAT1006 PAT/1006SignInAndSignOut/main.cpp)
+add_executable(PAT1007 PAT/1007MaximumSubsequenceSum/main.cpp)
+add_executable(PAT1008 PAT/1008Elevator/main.cpp)
+add_executable(PAT1009 PAT/1009ProductOfPolynomials/main.cpp)
+add_executable(PAT1010 PAT/1010Radix/main.cpp)
+
+
+
 add_executable(winterWeek01Day03 winter/week01/day03/main.cpp)
 add_executable(winterWeek01Day04 winter/week01/day04/main.cpp)
 add_executable(winterWeek01Day05 winter/week01/day05/main.cpp)
