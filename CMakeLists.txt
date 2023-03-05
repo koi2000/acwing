@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(acwing main.cpp)
 add_executable(acwing2 test.c)
 
-# PAT题目联系
+# PAT题目练习
 add_executable(PAT1002 PAT/1002A+BforPolynomials/main.cpp)
 add_executable(PAT1003 PAT/1003Emergency/main.cpp)
 add_executable(PAT1004 PAT/1004CountingLeaves/main.cpp)
@@ -16,6 +16,7 @@ add_executable(PAT1007 PAT/1007MaximumSubsequenceSum/main.cpp)
 add_executable(PAT1008 PAT/1008Elevator/main.cpp)
 add_executable(PAT1009 PAT/1009ProductOfPolynomials/main.cpp)
 add_executable(PAT1010 PAT/1010Radix/main.cpp)
+
 add_executable(PAT1011 PAT/1011WorldCupBetting/main.cpp)
 add_executable(PAT1012 PAT/1012TheBestRank/main.cpp)
 add_executable(PAT1013 PAT/1013BattleOverCities/main.cpp)
@@ -27,6 +28,19 @@ add_executable(PAT1018 PAT/1018PublicBikeManagement/main.cpp)
 add_executable(PAT1019 PAT/1019GeneralPalindromicNumber/main.cpp)
 add_executable(PAT1020 PAT/1020TreeTraversals/main.cpp)
 
+add_executable(PAT1021 PAT/1021DeepestRoot/main.cpp)
+add_executable(PAT1022 PAT/1022DigitalLibrary/main.cpp)
+add_executable(PAT1023 PAT/1023HaveFunWithNumbers/main.cpp)
+add_executable(PAT1024 PAT/1024PalindromicNumber/main.cpp)
+add_executable(PAT1025 PAT/1025PATRanking/main.cpp)
+add_executable(PAT1026 PAT/1026TableTennis/main.cpp)
+add_executable(PAT1027 PAT/1027ColorsInMars/main.cpp)
+add_executable(PAT1028 PAT/1028ListSorting/main.cpp)
+add_executable(PAT1029 PAT/1029Median/main.cpp)
+add_executable(PAT1030 PAT/1030TravelPlan/main.cpp)
+
+# 常用代码模板
+add_executable(SegmentTree templates/SegmentTree/main.cpp)
 
 # 寒假每日一题
 add_executable(winterWeek01Day03 winter/week01/day03/main.cpp)
@@ -121,6 +135,9 @@ add_executable(CSP2020-09-3 CSP/2020-09/3.cpp)
 add_executable(CSP2020-09-4 CSP/2020-09/4.cpp)
 add_executable(CSP2020-09-5 CSP/2020-09/5.cpp)
 
+# acwing算法提高课
+add_executable(enhanceClass04SegmentTree01 enhance/class04/SegmentTree/max.cpp)
+add_executable(enhanceClass04SegmentTree02 enhance/class04/SegmentTree/MaintainSeq/main.cpp)
 
 # acwing算法基础课
 add_executable(basicClass01quicksort basic/class01/knumber/main.cpp)
