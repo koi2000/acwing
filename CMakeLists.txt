@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(acwing main.cpp)
 add_executable(acwing2 test.c)
 
+# PAT题目联系
 add_executable(PAT1002 PAT/1002A+BforPolynomials/main.cpp)
 add_executable(PAT1003 PAT/1003Emergency/main.cpp)
 add_executable(PAT1004 PAT/1004CountingLeaves/main.cpp)
@@ -15,9 +16,19 @@ add_executable(PAT1007 PAT/1007MaximumSubsequenceSum/main.cpp)
 add_executable(PAT1008 PAT/1008Elevator/main.cpp)
 add_executable(PAT1009 PAT/1009ProductOfPolynomials/main.cpp)
 add_executable(PAT1010 PAT/1010Radix/main.cpp)
+add_executable(PAT1011 PAT/1011WorldCupBetting/main.cpp)
+add_executable(PAT1012 PAT/1012TheBestRank/main.cpp)
+add_executable(PAT1013 PAT/1013BattleOverCities/main.cpp)
+add_executable(PAT1014 PAT/1014WaitingInLine/main.cpp)
+add_executable(PAT1015 PAT/1015ReversiblePrimes/main.cpp)
+add_executable(PAT1016 PAT/1016PhoneBills/main.cpp)
+add_executable(PAT1017 PAT/1017QueueingAtBank/main.cpp)
+add_executable(PAT1018 PAT/1018PublicBikeManagement/main.cpp)
+add_executable(PAT1019 PAT/1019GeneralPalindromicNumber/main.cpp)
+add_executable(PAT1020 PAT/1020TreeTraversals/main.cpp)
 
 
-
+# 寒假每日一题
 add_executable(winterWeek01Day03 winter/week01/day03/main.cpp)
 add_executable(winterWeek01Day04 winter/week01/day04/main.cpp)
 add_executable(winterWeek01Day05 winter/week01/day05/main.cpp)
@@ -40,6 +51,7 @@ add_executable(winterWeek04Day03 winter/week04/day03/main.cpp)
 add_executable(winterWeek04Day04 winter/week04/day04/main.cpp)
 add_executable(winterWeek04Day05 winter/week04/day05/main.cpp)
 
+# 蓝桥杯每日一题
 add_executable(bridgeWeek01Day01 bridge/week01/day01/main.cpp)
 add_executable(bridgeWeek01Day02 bridge/week01/day02/main.cpp)
 add_executable(bridgeWeek01Day03 bridge/week01/day03/main.cpp)
@@ -58,8 +70,14 @@ add_executable(bridgeWeek03Day03 bridge/week03/day03/main.cpp)
 add_executable(bridgeWeek03Day04 bridge/week03/day04/main.cpp)
 add_executable(bridgeWeek03Day05 bridge/week03/day05/main.cpp)
 
+add_executable(bridgeWeek04Day01 bridge/week04/day01/main.cpp)
+add_executable(bridgeWeek04Day02 bridge/week04/day02/main.cpp)
+add_executable(bridgeWeek04Day03 bridge/week04/day03/main.cpp)
+add_executable(bridgeWeek04Day04 bridge/week04/day04/main.cpp)
+add_executable(bridgeWeek04Day05 bridge/week04/day05/main.cpp)
 
 
+# acwing算法基础课
 add_executable(basicClass01quicksort basic/class01/knumber/main.cpp)
 add_executable(basicClass01knumber basic/class01/quicksort/main.cpp)
 add_executable(basicClass01mergesort basic/class01/mergesort/main.cpp)
@@ -70,7 +88,6 @@ add_executable(basicClass01highPrecisionAdd basic/class01/highPrecisionAdd/main.
 add_executable(basicClass01highPrecisionSub basic/class01/highPrecisionSub/main.cpp)
 add_executable(basicClass01highPrecisionMul basic/class01/highPrecisionMul/main.cpp)
 add_executable(basicClass01highPrecisionDiv basic/class01/highPrecisionDiv/main.cpp)
-
 
 add_executable(basicClass03BFS basic/class03/BFS/maze.cpp)
 add_executable(basicClass03BFS2  basic/class03/BFS/eightNumber.cpp)
