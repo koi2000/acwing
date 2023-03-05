@@ -76,6 +76,51 @@ add_executable(bridgeWeek04Day03 bridge/week04/day03/main.cpp)
 add_executable(bridgeWeek04Day04 bridge/week04/day04/main.cpp)
 add_executable(bridgeWeek04Day05 bridge/week04/day05/main.cpp)
 
+# CSP
+add_executable(CSP2022-06-1 CSP/2022-06/1.cpp)
+add_executable(CSP2022-06-2 CSP/2022-06/2.cpp)
+add_executable(CSP2022-06-3 CSP/2022-06/3.cpp)
+add_executable(CSP2022-06-4 CSP/2022-06/4.cpp)
+add_executable(CSP2022-06-5 CSP/2022-06/5.cpp)
+
+add_executable(CSP2022-03-1 CSP/2022-03/1.cpp)
+add_executable(CSP2022-03-2 CSP/2022-03/2.cpp)
+add_executable(CSP2022-03-3 CSP/2022-03/3.cpp)
+add_executable(CSP2022-03-4 CSP/2022-03/4.cpp)
+add_executable(CSP2022-03-4AC CSP/2022-03/4AC.cpp)
+add_executable(CSP2022-03-5 CSP/2022-03/5.cpp)
+
+add_executable(CSP2021-09-1 CSP/2021-09/1.cpp)
+add_executable(CSP2021-09-2 CSP/2021-09/2.cpp)
+add_executable(CSP2021-09-3 CSP/2021-09/3.cpp)
+add_executable(CSP2021-09-4 CSP/2021-09/4.cpp)
+add_executable(CSP2021-09-5 CSP/2021-09/5.cpp)
+
+add_executable(CSP2021-12-1 CSP/2021-12/1.cpp)
+add_executable(CSP2021-12-2 CSP/2021-12/2.cpp)
+add_executable(CSP2021-12-3 CSP/2021-12/3.cpp)
+add_executable(CSP2021-12-4 CSP/2021-12/4.cpp)
+add_executable(CSP2021-12-4AC CSP/2021-12/4AC.cpp)
+add_executable(CSP2021-12-5 CSP/2021-12/5.cpp)
+
+add_executable(CSP2021-04-1 CSP/2021-04/1.cpp)
+add_executable(CSP2021-04-2 CSP/2021-04/2.cpp)
+add_executable(CSP2021-04-3 CSP/2021-04/3.cpp)
+add_executable(CSP2021-04-4 CSP/2021-04/4.cpp)
+add_executable(CSP2021-04-5 CSP/2021-04/5.cpp)
+
+add_executable(CSP2020-12-1 CSP/2020-12/1.cpp)
+add_executable(CSP2020-12-2 CSP/2020-12/2.cpp)
+add_executable(CSP2020-12-3 CSP/2020-12/3.cpp)
+add_executable(CSP2020-12-4 CSP/2020-12/4.cpp)
+add_executable(CSP2020-12-5 CSP/2020-12/5.cpp)
+
+add_executable(CSP2020-09-1 CSP/2020-09/1.cpp)
+add_executable(CSP2020-09-2 CSP/2020-09/2.cpp)
+add_executable(CSP2020-09-3 CSP/2020-09/3.cpp)
+add_executable(CSP2020-09-4 CSP/2020-09/4.cpp)
+add_executable(CSP2020-09-5 CSP/2020-09/5.cpp)
+
 
 # acwing算法基础课
 add_executable(basicClass01quicksort basic/class01/knumber/main.cpp)
@@ -136,3 +181,4 @@ add_executable(basicClass05compress01  basic/class05/stateCompress/mende.cpp)
 add_executable(basicClass05compress02  basic/class05/stateCompress/Hamilton.cpp)
 add_executable(basicClass05tree  basic/class05/tree/main.cpp)
 add_executable(basicClass05memory  basic/class05/memorySearch/main.cpp)
+
