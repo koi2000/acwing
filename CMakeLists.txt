@@ -91,6 +91,12 @@ add_executable(bridgeWeek04Day04 bridge/week04/day04/main.cpp)
 add_executable(bridgeWeek04Day05 bridge/week04/day05/main.cpp)
 
 # CSP
+add_executable(CSP2022-12-1 CSP/2022-12/1.cpp)
+add_executable(CSP2022-12-2 CSP/2022-12/2.cpp)
+add_executable(CSP2022-12-3 CSP/2022-12/3.cpp)
+add_executable(CSP2022-12-4 CSP/2022-12/4.cpp)
+add_executable(CSP2022-12-5 CSP/2022-12/5.cpp)
+
 add_executable(CSP2022-06-1 CSP/2022-06/1.cpp)
 add_executable(CSP2022-06-2 CSP/2022-06/2.cpp)
 add_executable(CSP2022-06-3 CSP/2022-06/3.cpp)
