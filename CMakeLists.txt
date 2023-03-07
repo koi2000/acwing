@@ -97,6 +97,12 @@ add_executable(CSP2022-12-3 CSP/2022-12/3.cpp)
 add_executable(CSP2022-12-4 CSP/2022-12/4.cpp)
 add_executable(CSP2022-12-5 CSP/2022-12/5.cpp)
 
+add_executable(CSP2022-09-1 CSP/2022-09/1.cpp)
+add_executable(CSP2022-09-2 CSP/2022-09/2.cpp)
+add_executable(CSP2022-09-3 CSP/2022-09/3.cpp)
+add_executable(CSP2022-09-4 CSP/2022-09/4.cpp)
+add_executable(CSP2022-09-5 CSP/2022-09/5.cpp)
+
 add_executable(CSP2022-06-1 CSP/2022-06/1.cpp)
 add_executable(CSP2022-06-2 CSP/2022-06/2.cpp)
 add_executable(CSP2022-06-3 CSP/2022-06/3.cpp)
