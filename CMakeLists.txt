@@ -41,6 +41,8 @@ add_executable(PAT1030 PAT/1030TravelPlan/main.cpp)
 
 # 常用代码模板
 add_executable(SegmentTree templates/SegmentTree/main.cpp)
+add_executable(TreeArray templates/TreeArray/main.cpp)
+add_executable(TreeArrayV2 templates/TreeArray/mainv2.cpp)
 
 # 寒假每日一题
 add_executable(winterWeek01Day03 winter/week01/day03/main.cpp)

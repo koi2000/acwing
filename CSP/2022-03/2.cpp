@@ -10,6 +10,7 @@ using namespace std;
 const ll MAXN = 1e6 + 1;
 ll s[MAXN];
 
+// 区间查询
 ll ask(ll p) {
     ll res = 0;
     for (ll i = p; i >= 1; i -= lowbit(i)) {
@@ -18,6 +19,7 @@ ll ask(ll p) {
     return res;
 }
 
+//单点更新
 void upd(ll p, ll x) {
     for (ll i = p; i <= MAXN; i += lowbit(i)) {
         s[i] += x;
