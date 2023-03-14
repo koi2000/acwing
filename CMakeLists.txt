@@ -92,6 +92,12 @@ add_executable(bridgeWeek04Day03 bridge/week04/day03/main.cpp)
 add_executable(bridgeWeek04Day04 bridge/week04/day04/main.cpp)
 add_executable(bridgeWeek04Day05 bridge/week04/day05/main.cpp)
 
+add_executable(bridgeWeek05Day01 bridge/week05/day01/main.cpp)
+add_executable(bridgeWeek05Day02 bridge/week05/day02/main.cpp)
+add_executable(bridgeWeek05Day03 bridge/week05/day03/main.cpp)
+add_executable(bridgeWeek05Day04 bridge/week05/day04/main.cpp)
+add_executable(bridgeWeek05Day05 bridge/week05/day05/main.cpp)
+
 # CSP
 add_executable(CSP2022-12-1 CSP/2022-12/1.cpp)
 add_executable(CSP2022-12-2 CSP/2022-12/2.cpp)
@@ -148,6 +154,12 @@ add_executable(CSP2020-09-2 CSP/2020-09/2.cpp)
 add_executable(CSP2020-09-3 CSP/2020-09/3.cpp)
 add_executable(CSP2020-09-4 CSP/2020-09/4.cpp)
 add_executable(CSP2020-09-5 CSP/2020-09/5.cpp)
+
+add_executable(CSP2020-06-1 CSP/2020-06/1.cpp)
+add_executable(CSP2020-06-2 CSP/2020-06/2.cpp)
+add_executable(CSP2020-06-3 CSP/2020-06/3.cpp)
+add_executable(CSP2020-06-4 CSP/2020-06/4.cpp)
+add_executable(CSP2020-06-5 CSP/2020-06/5.cpp)
 
 # acwing算法提高课
 add_executable(enhanceClass04SegmentTree01 enhance/class04/SegmentTree/max.cpp)

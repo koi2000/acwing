@@ -50,6 +50,11 @@ int find(int u) {
 }
 
 
+void update() {
+    int a,b;
+    cin>>a>>b;
+}
+
 int main() {
     ios::sync_with_stdio(false);
     cin >> n >> m;
