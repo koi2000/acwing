@@ -1,12 +1,12 @@
 //
-// Created by DELL on 2022/6/7.
+// Created by DEll on 2022/6/7.
 //
 #include <bits/stdc++.h>
 
 #define ll long long
 using namespace std;
 
-const ll N = 30010;
+const ll N = 300010;
 struct edge {
     ll u, v, w, nxt;
 };
@@ -69,39 +69,44 @@ map<ll, ll> dfs(ll u) {
     return mps[u];
 }
 
-void get_child(ll u, vector<ll> &arr) {
-    if (vis[u])return;
-    vis[u] = 1;
-    arr.push_back(number[u]);
+map<ll, vector<ll>> mp;
+
+vector<ll> get_child(ll u) {
     ll h = head[u];
+    vector<ll> arr;
+    arr.push_back(u);
     while (h != -1) {
         edge e = edges[h];
-        get_child(e.v, arr);
+        //arr.push_back(e.v);
+        vector<ll> ret = get_child(e.v);
+        for (ll i:ret) {
+            arr.push_back(i);
+        }
         h = edges[h].nxt;
     }
+    mp[u] = arr;
+    return arr;
 }
 
-ll get_gs(/*map<ll, ll> mp*/vector<ll> arr) {
-//    vector<ll> arr;
-//    for (auto it:mp) {
-//        for (ll i = 0; i < it.second; ++i) {
-//            arr.push_back(it.first);
-//        }
-//    }
-    sort(arr.begin(), arr.end());
-    ll sum = 0;
-    if (arr.size() == 1)return 0;
-    for (ll i = 0; i < arr.size(); ++i) {
-        ll res1 = INT_MAX;
-        if (i - 1 >= 0) {
-            res1 = min(res1, (arr[i] - arr[i - 1]) * (arr[i] - arr[i - 1]));
-        }
-        if (i + 1 < arr.size()) {
-            res1 = min(res1, (arr[i + 1] - arr[i]) * (arr[i + 1] - arr[i]));
-        }
-        sum += res1;
+ll get_gs(vector<ll> v) {
+    ll ans = 0;
+    vector<ll> s;
+    for (ll i = 0; i < v.size(); i++) {
+        s.push_back(number[v[i]]);
     }
-    return sum;
+    if (s.size() == 1)
+        return 0;
+    sort(s.begin(), s.end());
+    ll size = s.size();
+    for (ll i = 0; i < size; i++) {
+        ll tmp = 0x3f3f3f3f3f3f3f3f;
+        if (i + 1 >= 0 && i + 1 < size)
+            tmp = min((s[i + 1] - s[i]) * (s[i + 1] - s[i]), tmp);
+        if (i - 1 >= 0 && i - 1 < size)
+            tmp = min((s[i - 1] - s[i]) * (s[i - 1] - s[i]), tmp);
+        ans += tmp;
+    }
+    return ans;
 }
 
 // 获取g的值
@@ -144,7 +149,7 @@ ll qpow(ll a, ll b, ll p) {
     return s;
 }
 
-int main() {
+signed main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> n;
@@ -157,17 +162,9 @@ int main() {
     for (ll i = 1; i <= n; ++i) {
         cin >> number[i];
     }
+    get_child(1);
     for (ll i = 1; i <= n; ++i) {
-        memset(vis, 0, sizeof vis);
-        vector<ll> arr;
-        get_child(i, arr);
-//        map<ll, ll> re = dfs(i);
-//        if (re.count(number[i])) {
-//            re[number[i]]++;
-//        } else {
-//            re[number[i]] = 1;
-//        }
-        cout << get_gs(arr) << endl;
+        cout << get_gs(mp[i]) << endl;
     }
     return 0;
 }
