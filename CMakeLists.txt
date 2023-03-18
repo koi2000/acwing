@@ -98,6 +98,17 @@ add_executable(bridgeWeek05Day03 bridge/week05/day03/main.cpp)
 add_executable(bridgeWeek05Day04 bridge/week05/day04/main.cpp)
 add_executable(bridgeWeek05Day05 bridge/week05/day05/main.cpp)
 
+add_executable(bridgeWeek06Day0101 bridge/week06/day01/IntegerSplit.cpp)
+add_executable(bridgeWeek06Day0102 bridge/week06/day01/01bag.cpp)
+add_executable(bridgeWeek06Day0103 bridge/week06/day01/manybag.cpp)
+add_executable(bridgeWeek06Day0104 bridge/week06/day01/wholebag.cpp)
+add_executable(bridgeWeek06Day0105 bridge/week06/day01/groupbag.cpp)
+
+add_executable(bridgeWeek06Day02 bridge/week06/day02/main.cpp)
+add_executable(bridgeWeek06Day03 bridge/week06/day03/main.cpp)
+add_executable(bridgeWeek06Day04 bridge/week06/day04/main.cpp)
+add_executable(bridgeWeek06Day05 bridge/week06/day05/main.cpp)
+
 # CSP
 add_executable(CSP2022-12-1 CSP/2022-12/1.cpp)
 add_executable(CSP2022-12-2 CSP/2022-12/2.cpp)
