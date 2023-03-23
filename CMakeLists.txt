@@ -6,6 +6,11 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(acwing main.cpp)
 add_executable(acwing2 test.c)
 
+# LeetCode题目联系
+add_executable(LeetCode27 leetcode/array/leetcode27.cpp)
+add_executable(LeetCode55 leetcode/dp/leetcode55.cpp)
+
+
 # PAT题目练习
 add_executable(PAT1002 PAT/1002A+BforPolynomials/main.cpp)
 add_executable(PAT1003 PAT/1003Emergency/main.cpp)
@@ -110,6 +115,9 @@ add_executable(bridgeWeek06Day04 bridge/week06/day04/main.cpp)
 add_executable(bridgeWeek06Day05 bridge/week06/day05/main.cpp)
 
 # CSP
+add_executable(CSP2023-3-19binary CSP/2023-3-19/binary.cpp)
+add_executable(CSP2023-3-19tree CSP/2023-3-19/tree.cpp)
+
 add_executable(CSP2022-12-1 CSP/2022-12/1.cpp)
 add_executable(CSP2022-12-2 CSP/2022-12/2.cpp)
 add_executable(CSP2022-12-3 CSP/2022-12/3.cpp)
