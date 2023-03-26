@@ -67,30 +67,30 @@
 * LeetCode64 最小路径和 √
 * LeetCode70 爬楼梯 √
 * LeetCode72 编辑距离 √
-* LeetCode95 不同的二叉搜索树Ⅱ
-* LeetCode96 不同的二叉搜索树
-* LeetCode115 不同的子序列
-* LeetCode120 三角形最小路径和
-* LeetCode121 买卖股票的最佳时机
-* LeetCode122 买卖股票的最佳时机Ⅱ
-* LeetCode123 买卖股票的最佳时机Ⅲ
-* LeetCode152 乘积最大子数组
-* LeetCode188 买卖股票的最佳时机 Ⅳ
-* LeetCode198 打家劫舍
-* LeetCode213 打家劫舍Ⅱ
-* LeetCode300 最长上升子序列
-* LeetCode309 买卖股票的最佳时机含冷冻期
-* LeetCode322 零钱兑换
-* LeetCode337 打家劫舍Ⅲ
-* LeetCode343 整数拆分
-* LeetCode509 斐波那契数
-* LeetCode516 最长回文子序列
-* LeetCode583 两个字符串的删除操作
-* LeetCoe647 回文子串
-* LeetCode674 最长连续递增序列
-* LeetCode714 买卖股票的最佳时机含手续费
-* LeetCode718 最长重复子数组
-* LeetCode746 使用最小花费爬楼梯
-* LeetCode1035 不相交的线
-* LeetCode1143 最长公共子序列
-* LeetCode1646 获取生成数组中的最大值
+* LeetCode95 不同的二叉搜索树Ⅱ √
+* LeetCode96 不同的二叉搜索树 √
+* LeetCode115 不同的子序列 √
+* LeetCode120 三角形最小路径和 √
+* LeetCode121 买卖股票的最佳时机 √ 
+* LeetCode122 买卖股票的最佳时机Ⅱ √
+* LeetCode123 买卖股票的最佳时机Ⅲ √
+* LeetCode152 乘积最大子数组 √
+* LeetCode188 买卖股票的最佳时机 Ⅳ √
+* LeetCode198 打家劫舍 √
+* LeetCode213 打家劫舍Ⅱ √
+* LeetCode300 最长上升子序列 √
+* LeetCode309 买卖股票的最佳时机含冷冻期 √
+* LeetCode322 零钱兑换 √
+* LeetCode337 打家劫舍Ⅲ √
+* LeetCode343 整数拆分 √
+* LeetCode509 斐波那契数 √
+* LeetCode516 最长回文子序列 √
+* LeetCode583 两个字符串的删除操作 √
+* LeetCode647 回文子串 √
+* LeetCode674 最长连续递增序列 √
+* LeetCode714 买卖股票的最佳时机含手续费 √
+* LeetCode718 最长重复子数组 √
+* LeetCode746 使用最小花费爬楼梯 √
+* LeetCode1035 不相交的线 √
+* LeetCode1143 最长公共子序列 √
+* LeetCode1646 获取生成数组中的最大值 √

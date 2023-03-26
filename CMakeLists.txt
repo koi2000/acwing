@@ -9,6 +9,7 @@ add_executable(acwing2 test.c)
 # LeetCode题目联系
 add_executable(LeetCode27 leetcode/array/leetcode27.cpp)
 add_executable(LeetCode55 leetcode/dp/leetcode55.cpp)
+add_executable(LeetCode188 leetcode/dp/leetcode188.cpp)
 
 
 # PAT题目练习
