@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(acwing main.cpp)
 add_executable(acwing2 test.c)
 
-# LeetCode题目联系
+# LeetCode题目练习
 add_executable(LeetCode27 leetcode/array/leetcode27.cpp)
 add_executable(LeetCode55 leetcode/dp/leetcode55.cpp)
 add_executable(LeetCode188 leetcode/dp/leetcode188.cpp)
