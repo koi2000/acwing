@@ -8,6 +8,7 @@ add_executable(acwing2 test.c)
 
 # LeetCode题目练习
 add_executable(LeetCode27 leetcode/array/leetcode27.cpp)
+add_executable(LeetCode59 leetcode/array/leetcode59.cpp)
 add_executable(LeetCode55 leetcode/dp/leetcode55.cpp)
 add_executable(LeetCode188 leetcode/dp/leetcode188.cpp)
 
@@ -118,6 +119,12 @@ add_executable(bridgeWeek06Day05 bridge/week06/day05/main.cpp)
 # CSP
 add_executable(CSP2023-3-19binary CSP/2023-3-19/binary.cpp)
 add_executable(CSP2023-3-19tree CSP/2023-3-19/tree.cpp)
+
+add_executable(CSP2023-03-1 CSP/2023-03/1.cpp)
+add_executable(CSP2023-03-2 CSP/2023-03/2.cpp)
+add_executable(CSP2023-03-3 CSP/2023-03/3.cpp)
+add_executable(CSP2023-03-4 CSP/2023-03/4.cpp)
+add_executable(CSP2023-03-5 CSP/2023-03/5.cpp)
 
 add_executable(CSP2022-12-1 CSP/2022-12/1.cpp)
 add_executable(CSP2022-12-2 CSP/2022-12/2.cpp)
