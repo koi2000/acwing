@@ -57,6 +57,27 @@
 * LeetCode 617 合并二叉树
 * LeetCode654 最大二叉树
 
+### 贪心
+* LeetCode11 盛最多水的容器
+* LeetCode45 跳跃游戏Ⅱ
+* LeetCode53 最大子数组和
+* LeetCode55 跳跃游戏
+* LeetCode56 合并区间
+* LeetCode121 买卖股票的最佳时机
+* LeetCode122 买卖股票的最佳时机Ⅱ
+* LeetCode134 加油站
+* LeetCode135 分发糖果
+* LeetCode376 摆动序列
+* LeetCode409 最长回文串
+* LeetCode435 无重叠区间
+* LeetCode452 用最少数量的箭引爆气球
+* LeetCode455 分发饼干
+* LeetCode605 种花问题
+* LeetCode738 单调递增的数字
+* LeetCode860 柠檬水找零
+* LeetCode1005 K次取反后最大化的数组和
+* LeetCode 1013 将数组分成和相等的三个部分
+
 ### 动态规划
 * LeetCode45 跳跃游戏Ⅱ √
 * LeetCode47 判断子序列 √

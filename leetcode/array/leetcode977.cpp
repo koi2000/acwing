@@ -6,16 +6,13 @@ using namespace std;
 
 class Solution {
 public:
-    int removeElement(vector<int> &nums, int val) {
-        int n = nums.size();
-        int left = 0;
-        for (int right = 0; right < n; right++) {
-            if (nums[right] != val) {
-                nums[left] = nums[right];
-                left++;
-            }
+    vector<int> sortedSquares(vector<int> &nums) {
+        vector<int> ans;
+        for (int num: nums) {
+            ans.push_back(num * num);
         }
-        return left;
+        sort(ans.begin(), ans.end());
+        return ans;
     }
 };
 
@@ -28,7 +25,7 @@ int main() {
     arr.push_back(3);
     arr.push_back(4);
     arr.push_back(5);
-    solution.removeElement(arr, 5);
+    solution.generateMatrix(3);
     return 0;
 }
 
