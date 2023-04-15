@@ -12,6 +12,34 @@ add_executable(LeetCode59 leetcode/array/leetcode59.cpp)
 add_executable(LeetCode55 leetcode/dp/leetcode55.cpp)
 add_executable(LeetCode188 leetcode/dp/leetcode188.cpp)
 
+# 在线笔试
+add_executable(huaweimock01A MachineTest/huaweiMock01/A.cpp)
+add_executable(huaweimock01B MachineTest/huaweiMock01/B.cpp)
+add_executable(huaweimock01C MachineTest/huaweiMock01/C.cpp)
+
+add_executable(alibabaMock0101 MachineTest/alibabaMock01/1.cpp)
+add_executable(alibabaMock0102 MachineTest/alibabaMock01/2.cpp)
+add_executable(alibabaMock0103 MachineTest/alibabaMock01/3.cpp)
+add_executable(alibabaMock0104 MachineTest/alibabaMock01/4.cpp)
+add_executable(alibabaMock0105 MachineTest/alibabaMock01/5.cpp)
+add_executable(alibabaMock0106 MachineTest/alibabaMock01/6.cpp)
+add_executable(alibabaMock0107 MachineTest/alibabaMock01/7.cpp)
+add_executable(alibabaMock0108 MachineTest/alibabaMock01/8.cpp)
+add_executable(alibabaMock0109 MachineTest/alibabaMock01/9.cpp)
+add_executable(alibabaMock0110 MachineTest/alibabaMock01/10.cpp)
+
+add_executable(meituan0415A MachineTest/meituan0415/A.cpp)
+add_executable(meituan0415B MachineTest/meituan0415/B.cpp)
+add_executable(meituan0415C MachineTest/meituan0415/C.cpp)
+add_executable(meituan0415D MachineTest/meituan0415/D.cpp)
+add_executable(meituan0415E MachineTest/meituan0415/E.cpp)
+
+add_executable(meituan0408A MachineTest/meituan0408/A.cpp)
+add_executable(meituan0408B MachineTest/meituan0408/B.cpp)
+add_executable(meituan0408C MachineTest/meituan0408/C.cpp)
+add_executable(meituan0408D MachineTest/meituan0408/D.cpp)
+add_executable(meituan0408E MachineTest/meituan0408/E.cpp)
+
 
 # PAT题目练习
 add_executable(PAT1002 PAT/1002A+BforPolynomials/main.cpp)
@@ -50,6 +78,7 @@ add_executable(PAT1030 PAT/1030TravelPlan/main.cpp)
 add_executable(SegmentTree templates/SegmentTree/main.cpp)
 add_executable(TreeArray templates/TreeArray/main.cpp)
 add_executable(TreeArrayV2 templates/TreeArray/mainv2.cpp)
+add_executable(RBTree templates/RBTree/main.cpp)
 
 # 寒假每日一题
 add_executable(winterWeek01Day03 winter/week01/day03/main.cpp)
@@ -251,4 +280,3 @@ add_executable(basicClass05compress01  basic/class05/stateCompress/mende.cpp)
 add_executable(basicClass05compress02  basic/class05/stateCompress/Hamilton.cpp)
 add_executable(basicClass05tree  basic/class05/tree/main.cpp)
 add_executable(basicClass05memory  basic/class05/memorySearch/main.cpp)
-
