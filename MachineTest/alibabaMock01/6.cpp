@@ -6,14 +6,16 @@
 #define ll long long
 #define pii pair<int,int>
 using namespace std;
-const int N = 5010;
+const int N = 5110;
 struct edge {
     int u, v, w, nxt;
 };
 int head[N];
 edge edges[4 * N];
 bool vis[N];
+
 int dis[N];
+
 int tot = 0;
 
 int level[N];
@@ -59,7 +61,8 @@ void dij(int u) {
 }
 
 int main() {
-    ios::sync_with_stdio(false);
+    //ios::sync_with_stdio(false);
+    //freopen("in.txt","r",stdin);
     cin >> n;
     init();
     for (int i = 1; i <= n; ++i) {
@@ -74,8 +77,8 @@ int main() {
     }
     int res = 1061109567;
     for (int i = 1; i <= n; ++i) {
-        memset(dis, 0x3f, 4 * (n + 1));
-        memset(vis, 0, 4 * (n + 1));
+        memset(dis, 0x3f, sizeof dis);
+        memset(vis, 0, sizeof vis);
         dij(i);
         set<int> levels = level2node[level[i]];
         for (int it:levels) {
