@@ -15,7 +15,7 @@ int No10_hash(vector<int>& a, vector<int>& b) {
         curi = mp[a[i]];
     }
     len = max(len, cur);
-    return n - len; 
+    return n - len;
 }
 
 int main() {

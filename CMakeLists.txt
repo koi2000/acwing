@@ -144,6 +144,15 @@ add_executable(bridgeWeek06Day03 bridge/week06/day03/main.cpp)
 add_executable(bridgeWeek06Day04 bridge/week06/day04/main.cpp)
 add_executable(bridgeWeek06Day05 bridge/week06/day05/main.cpp)
 
+# 春季每日一题
+add_executable(springWeek01Day01 spring/week01/day01/main.cpp)
+add_executable(springWeek01Day02 spring/week01/day02/main.cpp)
+add_executable(springWeek01Day03 spring/week01/day03/main.cpp)
+add_executable(springWeek01Day04 spring/week01/day04/main.cpp)
+add_executable(springWeek01Day05 spring/week01/day05/main.cpp)
+
+# 牛客101
+
 # CSP
 add_executable(CSP2023-3-19binary CSP/2023-3-19/binary.cpp)
 add_executable(CSP2023-3-19tree CSP/2023-3-19/tree.cpp)

@@ -8,7 +8,7 @@
 using namespace std;
 
 /**
- * Definition for a binary tree node.
+ * Definition for a binarySearch tree node.
  * struct TreeNode {
  *     int val;
  *     TreeNode *left;
