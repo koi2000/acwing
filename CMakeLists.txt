@@ -13,6 +13,10 @@ add_executable(LeetCode55 leetcode/dp/leetcode55.cpp)
 add_executable(LeetCode188 leetcode/dp/leetcode188.cpp)
 
 # 在线笔试
+add_executable(huaweimock0426A MachineTest/huawei0426/A.cpp)
+add_executable(huaweimock0426B MachineTest/huawei0426/B.cpp)
+add_executable(huaweimock0426C MachineTest/huawei0426/C.cpp)
+
 add_executable(huaweimock01A MachineTest/huaweiMock01/A.cpp)
 add_executable(huaweimock01B MachineTest/huaweiMock01/B.cpp)
 add_executable(huaweimock01C MachineTest/huaweiMock01/C.cpp)
@@ -39,6 +43,12 @@ add_executable(meituan0408B MachineTest/meituan0408/B.cpp)
 add_executable(meituan0408C MachineTest/meituan0408/C.cpp)
 add_executable(meituan0408D MachineTest/meituan0408/D.cpp)
 add_executable(meituan0408E MachineTest/meituan0408/E.cpp)
+
+add_executable(redbook0423A MachineTest/redbook0423/A.cpp)
+add_executable(redbook0423B MachineTest/redbook0423/B.cpp)
+add_executable(redbook0423C MachineTest/redbook0423/C.cpp)
+add_executable(redbook0423D MachineTest/redbook0423/D.cpp)
+add_executable(redbook0423E MachineTest/redbook0423/E.cpp)
 
 # PAT题目练习
 add_executable(PAT1002 PAT/1002A+BforPolynomials/main.cpp)
