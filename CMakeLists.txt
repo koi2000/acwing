@@ -17,6 +17,10 @@ add_executable(huaweimock0426A MachineTest/huawei0426/A.cpp)
 add_executable(huaweimock0426B MachineTest/huawei0426/B.cpp)
 add_executable(huaweimock0426C MachineTest/huawei0426/C.cpp)
 
+add_executable(mayi0509A MachineTest/mayi0509/A.cpp)
+add_executable(mayi0509B MachineTest/mayi0509/B.cpp)
+add_executable(mayi0509C MachineTest/mayi0509/C.cpp)
+
 add_executable(huaweimock01A MachineTest/huaweiMock01/A.cpp)
 add_executable(huaweimock01B MachineTest/huaweiMock01/B.cpp)
 add_executable(huaweimock01C MachineTest/huaweiMock01/C.cpp)
