@@ -7,10 +7,10 @@ add_executable(acwing main.cpp)
 add_executable(acwing2 test.c)
 
 # LeetCode题目练习
-add_executable(LeetCode27 leetcode/array/leetcode27.cpp)
-add_executable(LeetCode59 leetcode/array/leetcode59.cpp)
-add_executable(LeetCode55 leetcode/dp/leetcode55.cpp)
-add_executable(LeetCode188 leetcode/dp/leetcode188.cpp)
+add_executable(LeetCode27 leetcode/v1/array/leetcode27.cpp)
+add_executable(LeetCode59 leetcode/v1/array/leetcode59.cpp)
+add_executable(LeetCode55 leetcode/v1/DP/leetcode55.cpp)
+add_executable(LeetCode188 leetcode/v1/DP/leetcode188.cpp)
 
 # 在线笔试
 add_executable(huaweimock0426A MachineTest/huawei0426/A.cpp)
