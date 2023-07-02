@@ -57,6 +57,52 @@
 * LeetCode 617 合并二叉树 √
 * LeetCode654 最大二叉树 √
 
+### 二叉树遍历
+* LeetCode 144 二叉树的前序遍历
+* LeetCode 94：二叉树的中序遍历
+* LeetCode 105 从前序与中序遍历序列构造二叉树
+* LeetCode 106 从中序和后序遍历构造二叉树
+* LeetCode 145：二叉树的后序遍历
+
+### 层次遍历
+* LeetCode 102 二叉树的层次遍历
+* LeetCode 107 二叉树的层序遍历Ⅱ
+* LeetCode 199 二叉树的右视图
+* LeetCode 429 N叉树的层次遍历
+* LeetCode 637 二叉树的层平均值：
+
+### 二叉搜索树
+* LeetCode98 验证二叉搜索树
+* LeetCode108 将有序数组转化为二叉搜索树
+* LeetCode235 二叉搜索树的最近公共祖先
+* LeetCode450 删除二叉搜索树中的节点
+* LeetCode501 二叉搜索树中的众数
+* LeetCode530 二叉搜索树的最小绝对差
+* LeetCode538 把二叉搜索树转换为累加树
+* LeetCode669 修剪二叉搜索树
+* LeetCode700 二叉搜索树中的搜索
+* LeetCode701 二叉搜索树中的插入操作
+
+### 平衡二叉树
+* LeetCode110 平衡二叉树
+* LeetCode1382 将二叉搜索树变平衡
+
+### KMP
+* LeetCode28 实现 strStr()
+* LeetCode459 重复的子字符串
+
+### 分治
+* LeetCode 50 Pow(x,n)
+* LeetCode 169 多数元素
+
+### 二分查找
+* LeetCode33 搜索旋转排序数组
+* LeetCode34 在排序数组中查找元素的第一个和最后一个位置
+* LeetCode35 搜索插入的位置
+* LeetCode69 实现 int sqrt(int x) 函数
+* LeetCode81 搜索旋转排序数组Ⅱ
+* LeetCode153 寻找旋转数组中的最小值
+
 ### 贪心
 * LeetCode11 盛最多水的容器
 * LeetCode45 跳跃游戏Ⅱ
@@ -115,3 +161,37 @@
 * LeetCode1035 不相交的线 √
 * LeetCode1143 最长公共子序列 √
 * LeetCode1646 获取生成数组中的最大值 √
+
+### 回溯
+* LeetCode17 电话号码的字母组合
+* LeetCode22 括号生成
+* LeetCode39 组合总和
+* LeetCode46 全排列
+* LeetCode78 子集
+* LeetCode79 单词搜索
+* LeetCode226 翻转二叉树
+
+### 深度优先 & 广度优先
+* LeetCode22 括号生成
+* LeetCode36 有效的数独
+* LeetCode37 解数独
+* LeetCode51 N皇后
+* LeetCode52 N皇后Ⅱ
+* LeetCode102 二叉树的层次遍历
+* LeetCode104 二叉树的最大深度
+* LeetCode111 二叉树的最小深度
+
+### 字典树
+* LeetCode79 单词搜索
+* LeetCode208 实现 Trie(前缀树)
+* LeetCode212 单词搜索Ⅱ
+
+### 位运算
+* LeetCode52 N皇后Ⅱ
+* LeetCode191 位1的个数
+* LeetCode231 2的幂
+* LeetCode338 比特位计数
+
+### 并查集
+* LeetCode200 岛屿的个数
+* LeetCode547 省份数量
