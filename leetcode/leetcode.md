@@ -1,8 +1,8 @@
 ## LeetCode刷题指南
 
 ### 数组
-* LeetCode27 移除元素
-* LeetCode59 螺旋矩阵Ⅱ
+* LeetCode27 移除元素 √
+* LeetCode59 螺旋矩阵Ⅱ √
 * LeetCode209 长度最小的子数组
 * LeetCode977 有序数组的平方
 
