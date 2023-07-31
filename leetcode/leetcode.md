@@ -7,9 +7,9 @@
 * LeetCode977 有序数组的平方
 
 ### 链表
-* LeetCode19 删除链表的倒数第 N 个节点 √
-* LeetCode24 交换链表 √
-* LeetCode25 K个一组翻转链表 √
+* LeetCode19 删除链表的倒数第 N 个节点 √ √
+* LeetCode24 交换链表 √ √
+* LeetCode25 K个一组翻转链表 √ √
 * LeetCode141 环形链表 √
 * LeetCode142 环形链表Ⅱ √
 * LeetCode160 相交链表 √
