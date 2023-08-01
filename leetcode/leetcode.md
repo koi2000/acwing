@@ -10,19 +10,19 @@
 * LeetCode19 删除链表的倒数第 N 个节点 √ √
 * LeetCode24 交换链表 √ √
 * LeetCode25 K个一组翻转链表 √ √
-* LeetCode141 环形链表 √
-* LeetCode142 环形链表Ⅱ √
-* LeetCode160 相交链表 √
-* LeetCode206 反转链表 √
+* LeetCode141 环形链表 √ √
+* LeetCode142 环形链表Ⅱ √ √
+* LeetCode160 相交链表 √ √
+* LeetCode206 反转链表 √ √
 * LeetCode707 设计链表 √
 
 ### 栈和队列
-* LeetCode20 有效的括号
+* LeetCode20 有效的括号 √
 * LeetCode150 逆波兰表达式求值
-* LeetCode225 用队列实现栈 
-* LeetCode232 用栈实现队列
-* LeetCode239 滑动窗口最大值
-* LeetCode1047 删除字符串中的所有相邻重复项
+* LeetCode225 用队列实现栈 √
+* LeetCode232 用栈实现队列 √
+* LeetCode239 滑动窗口最大值 √
+* LeetCode1047 删除字符串中的所有相邻重复项 √
 
 ### 字符串
 * 剑指 offer05 替换空格
@@ -34,7 +34,7 @@
 ### 哈希表
 * LeetCode1　两数之和
 * LeetCode15 三数之和
-* LeetCode 202 快乐数
+* LeetCode202 快乐数
 * LeetCode242 有效的字母异位词
 * LeetCode349 两个数组的交集
 * LeetCode383 赎金信
