@@ -32,13 +32,13 @@
 * LeetCode541 反转字符串Ⅱ
 
 ### 哈希表
-* LeetCode1　两数之和
-* LeetCode15 三数之和
-* LeetCode202 快乐数
-* LeetCode242 有效的字母异位词
-* LeetCode349 两个数组的交集
-* LeetCode383 赎金信
-* LeetCode454 四数相加Ⅱ
+* LeetCode1　两数之和 √
+* LeetCode15 三数之和 √
+* LeetCode202 快乐数 √
+* LeetCode242 有效的字母异位词 x
+* LeetCode349 两个数组的交集 x
+* LeetCode383 赎金信 x
+* LeetCode454 四数相加Ⅱ √
 
 ### 二叉树
 
