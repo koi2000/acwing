@@ -42,10 +42,10 @@
 
 ### 二叉树
 
-* LeetCode 100 相同的树
-* LeetCode101 对称二叉树
-* LeetCode 104 二叉树的最大深度
-* LeetCode 111 二叉树的最小深度
+* LeetCode 100 相同的树 √
+* LeetCode101 对称二叉树 √
+* LeetCode 104 二叉树的最大深度 √
+* LeetCode 111 二叉树的最小深度 √
 * LeetCode112 路径总和
 * LeetCode 222 完全二叉树的节点个数
 * LeetCode 226 翻转二叉树
