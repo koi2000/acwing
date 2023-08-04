@@ -46,16 +46,16 @@
 * LeetCode101 对称二叉树 √
 * LeetCode 104 二叉树的最大深度 √
 * LeetCode 111 二叉树的最小深度 √
-* LeetCode112 路径总和
-* LeetCode 222 完全二叉树的节点个数
-* LeetCode 226 翻转二叉树
-* LeetCode236 二叉树的最近公共祖先
-* LeetCode257 二叉树的所有路径
-* LeetCode404 左叶子之和
-* LeetCode513 找树左下角的值
-* LeetCode 559 N叉树的做大深度
-* LeetCode 617 合并二叉树
-* LeetCode654 最大二叉树
+* LeetCode112 路径总和 √
+* LeetCode 222 完全二叉树的节点个数 √
+* LeetCode 226 翻转二叉树 √
+* LeetCode236 二叉树的最近公共祖先 √
+* LeetCode257 二叉树的所有路径 √
+* LeetCode404 左叶子之和 √
+* LeetCode513 找树左下角的值 √
+* LeetCode 559 N叉树的做大深度 √
+* LeetCode 617 合并二叉树 √
+* LeetCode654 最大二叉树 √
 
 ### 贪心
 * LeetCode11 盛最多水的容器
