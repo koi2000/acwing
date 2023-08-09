@@ -79,9 +79,9 @@
 * LeetCode 1013 将数组分成和相等的三个部分
 
 ### 动态规划
-* LeetCode45 跳跃游戏Ⅱ √
-* LeetCode47 判断子序列 √
-* LeetCode53 最大子数组和 √
+* LeetCode45 跳跃游戏Ⅱ √ √
+* LeetCode47 判断子序列 √ √
+* LeetCode53 最大子数组和 √ √
 * LeetCode55 跳跃游戏 √
 * LeetCode62 不同路径 √
 * LeetCode63 不同路径Ⅱ √
