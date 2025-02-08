@@ -158,6 +158,49 @@ add_executable(bridgeWeek06Day03 2023acwingbridge/v1/week06/day03/main.cpp)
 add_executable(bridgeWeek06Day04 2023acwingbridge/v1/week06/day04/main.cpp)
 add_executable(bridgeWeek06Day05 2023acwingbridge/v1/week06/day05/main.cpp)
 
+# =============================================
+add_executable(2023v2bridgeWeek01Day01 2023acwingbridge/v2/week01/day01/main.cpp)
+add_executable(2023v2bridgeWeek01Day02 2023acwingbridge/v2/week01/day02/main.cpp)
+add_executable(2023v2bridgeWeek01Day03 2023acwingbridge/v2/week01/day03/main.cpp)
+add_executable(2023v2bridgeWeek01Day04 2023acwingbridge/v2/week01/day04/main.cpp)
+add_executable(2023v2bridgeWeek01Day05 2023acwingbridge/v2/week01/day05/main.cpp)
+
+add_executable(2023v2bridgeWeek02Day01 2023acwingbridge/v2/week02/day01/main.cpp)
+add_executable(2023v2bridgeWeek02Day02 2023acwingbridge/v2/week02/day02/main.cpp)
+add_executable(2023v2bridgeWeek02Day03 2023acwingbridge/v2/week02/day03/main.cpp)
+add_executable(2023v2bridgeWeek02Day04 2023acwingbridge/v2/week02/day04/main.cpp)
+add_executable(2023v2bridgeWeek02Day05 2023acwingbridge/v2/week02/day05/main.cpp)
+
+add_executable(2023v2bridgeWeek03Day01 2023acwingbridge/v2/week03/day01/main.cpp)
+add_executable(2023v2bridgeWeek03Day02 2023acwingbridge/v2/week03/day02/main.cpp)
+add_executable(2023v2bridgeWeek03Day03 2023acwingbridge/v2/week03/day03/main.cpp)
+add_executable(2023v2bridgeWeek03Day04 2023acwingbridge/v2/week03/day04/main.cpp)
+add_executable(2023v2bridgeWeek03Day05 2023acwingbridge/v2/week03/day05/main.cpp)
+
+add_executable(2023v2bridgeWeek04Day01 2023acwingbridge/v2/week04/day01/main.cpp)
+add_executable(2023v2bridgeWeek04Day02 2023acwingbridge/v2/week04/day02/main.cpp)
+add_executable(2023v2bridgeWeek04Day03 2023acwingbridge/v2/week04/day03/main.cpp)
+add_executable(2023v2bridgeWeek04Day04 2023acwingbridge/v2/week04/day04/main.cpp)
+add_executable(2023v2bridgeWeek04Day05 2023acwingbridge/v2/week04/day05/main.cpp)
+
+add_executable(2023v2bridgeWeek05Day01 2023acwingbridge/v2/week05/day01/main.cpp)
+add_executable(2023v2bridgeWeek05Day02 2023acwingbridge/v2/week05/day02/main.cpp)
+add_executable(2023v2bridgeWeek05Day03 2023acwingbridge/v2/week05/day03/main.cpp)
+add_executable(2023v2bridgeWeek05Day04 2023acwingbridge/v2/week05/day04/main.cpp)
+add_executable(2023v2bridgeWeek05Day05 2023acwingbridge/v2/week05/day05/main.cpp)
+
+add_executable(2023v2bridgeWeek06Day01A 2023acwingbridge/v2/week06/day01/A.cpp)
+add_executable(2023v2bridgeWeek06Day01B 2023acwingbridge/v2/week06/day01/B.cpp)
+add_executable(2023v2bridgeWeek06Day01C 2023acwingbridge/v2/week06/day01/C.cpp)
+add_executable(2023v2bridgeWeek06Day01D 2023acwingbridge/v2/week06/day01/D.cpp)
+add_executable(2023v2bridgeWeek06Day01E 2023acwingbridge/v2/week06/day01/E.cpp)
+
+add_executable(2023v2bridgeWeek06Day02 2023acwingbridge/v2/week06/day02/main.cpp)
+add_executable(2023v2bridgeWeek06Day03 2023acwingbridge/v2/week06/day03/main.cpp)
+add_executable(2023v2bridgeWeek06Day04 2023acwingbridge/v2/week06/day04/main.cpp)
+add_executable(2023v2bridgeWeek06Day05 2023acwingbridge/v2/week06/day05/main.cpp)
+
+
 # 春季每日一题
 add_executable(springWeek01Day01 2023acwingspring/week01/day01/main.cpp)
 add_executable(springWeek01Day02 2023acwingspring/week01/day02/main.cpp)
@@ -302,3 +345,58 @@ add_executable(basicClass05compress01 acwingbasic/class05/stateCompress/mende.cp
 add_executable(basicClass05compress02 acwingbasic/class05/stateCompress/Hamilton.cpp)
 add_executable(basicClass05tree acwingbasic/class05/tree/main.cpp)
 add_executable(basicClass05memory acwingbasic/class05/memorySearch/main.cpp)
+add_executable(main DataGenerate/main.cpp)
+add_executable(temp DataGenerate/temp/temp.cpp)
+add_executable(temp1 DataGenerate/temp/temp1.cpp)
+add_executable(temp2 DataGenerate/temp/temp2.cpp)
+add_executable(search DataGenerate/search/search.cpp)
+add_executable(search2 DataGenerate/search/search2.cpp)
+add_executable(matrix DataGenerate/matrix/matrix.cpp)
+#add_executable(A temp/A.cpp)
+#add_executable(B temp/B.cpp)
+#add_executable(C temp/C.cpp)
+
+# 算法提高课
+add_executable(acwingenhance1015 acwingenhance/chapter01/part01/AcWing1015.cpp)
+add_executable(acwingenhance1018 acwingenhance/chapter01/part01/AcWing1018.cpp)
+add_executable(acwingenhance1027 acwingenhance/chapter01/part01/AcWing1027.cpp)
+add_executable(acwingenhance0275 acwingenhance/chapter01/part01/AcWing0275.cpp)
+
+add_executable(acwingenhance1017 acwingenhance/chapter01/part02/AcWing1017.cpp)
+add_executable(acwingenhance1016 acwingenhance/chapter01/part02/AcWing1016.cpp)
+add_executable(acwingenhance1014 acwingenhance/chapter01/part02/AcWing1014.cpp)
+add_executable(acwingenhance1012 acwingenhance/chapter01/part02/AcWing1012.cpp)
+add_executable(acwingenhance0272 acwingenhance/chapter01/part02/AcWing0272.cpp)
+
+add_executable(acwingenhance0423 acwingenhance/chapter01/part03/AcWing0423.cpp)
+add_executable(acwingenhance1024 acwingenhance/chapter01/part03/AcWing1024.cpp)
+
+add_executable(acwingenhance1049 acwingenhance/chapter01/part04/AcWing1049.cpp)
+add_executable(acwingenhance1057 acwingenhance/chapter01/part04/AcWing1057.cpp)
+add_executable(acwingenhance1058 acwingenhance/chapter01/part04/AcWing1058.cpp)
+
+add_executable(acwingenhance1097 acwingenhance/chapter02/part01/AcWing1097.cpp)
+add_executable(acwingenhance1076 acwingenhance/chapter02/part01/AcWing1076.cpp)
+
+add_executable(acwingenhance1129 acwingenhance/chapter03/part01/AcWing1129.cpp)
+add_executable(acwingenhance1128 acwingenhance/chapter03/part01/AcWing1128.cpp)
+
+add_executable(acwingenhance1125 acwingenhance/chapter03/part04/AcWing1125.cpp)
+
+add_executable(acwingenhance0237 acwingenhance/chapter04/part01/AcWing0237.cpp)
+add_executable(acwingenhance0238 acwingenhance/chapter04/part01/AcWing0238.cpp)
+add_executable(acwingenhance0239 acwingenhance/chapter04/part01/AcWing0239.cpp)
+add_executable(acwingenhance1250 acwingenhance/chapter04/part01/AcWing1250.cpp)
+add_executable(acwingenhance1252 acwingenhance/chapter04/part01/AcWing1252.cpp)
+
+add_executable(acwingenhance0241 acwingenhance/chapter04/part02/AcWing0241.cpp)
+add_executable(acwingenhance0242 acwingenhance/chapter04/part02/AcWing0242.cpp)
+add_executable(acwingenhance0243 acwingenhance/chapter04/part02/AcWing0243.cpp)
+add_executable(acwingenhance0244 acwingenhance/chapter04/part02/AcWing0244.cpp)
+
+add_executable(acwingenhance0243-1 acwingenhance/chapter04/part03/AcWing0243.cpp)
+add_executable(acwingenhance0245 acwingenhance/chapter04/part03/AcWing0245.cpp)
+add_executable(acwingenhance0246 acwingenhance/chapter04/part03/AcWing0246.cpp)
+add_executable(acwingenhance0247 acwingenhance/chapter04/part03/AcWing0247.cpp)
+add_executable(acwingenhance1275 acwingenhance/chapter04/part03/AcWing1275.cpp)
+add_executable(acwingenhance1277 acwingenhance/chapter04/part03/AcWing1277.cpp)
